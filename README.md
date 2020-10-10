@@ -1,6 +1,5 @@
 # CalcApp
-Udemy Course Project-Calculator App 
-Fron this course : https://www.udemy.com/course/learn-android/
+Calculator App From this course : https://www.udemy.com/course/learn-android/
 
 Final View =
 
