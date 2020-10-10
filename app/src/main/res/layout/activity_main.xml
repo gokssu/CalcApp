@@ -4,4 +4,94 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    android:layout_gravity="right"
+    android:background="@android:color/background_light"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/EntnumText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:paddingTop="50dp"
+                android:paddingRight="10dp"
+                android:text="567"
+                android:textColor="#FFFFFF"
+                android:textSize="45dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:text="7"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:text="8"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:text="9"
+                android:textSize="30dp" />
+
+            <ImageButton
+                android:id="@+id/dividebutton"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                app:srcCompat="@drawable/divide" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"></LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
